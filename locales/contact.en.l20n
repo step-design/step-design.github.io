@@ -1,0 +1,21 @@
+/* http://informationisart.com/8/ */
+
+<iAm "
+  I am a <a>{{ softwareDeveloper }}</a>,
+  a <a>{{ freeSoftware }}</a> enthusiast
+  and a contributor to various <a>{{ openSource }}</a> projects.
+
+  I also craft paid-for websites and software solutions for small
+  customers.  I welcome your inquiries. Please use the form below.
+  Thank you.
+    <a></a><a></a><a></a>
+">
+<softwareDeveloper "Software developer"
+  href: "http://en.wikipedia.org/wiki/Software_developer"
+>
+<freeSoftware "Free Software"
+  href: "http://en.wikipedia.org/wiki/Free_software"
+>
+<openSource "Open Source"
+  href: "http://en.wikipedia.org/wiki/Open_source"
+>
