@@ -17,16 +17,19 @@
     <meta name="defaultLanguage" content="en">
     <meta name="availableLanguages" content="en, it">
     <link rel="localization" href="locales/contact.{locale}.l20n">
-    <script defer src="lib/l20n/3.4.1/dist/compat/web/l20n.min.js"></script>
+    <script defer src="lib/l20n/3.5.0/dist/compat/web/l20n-step.js"></script>
   </head>
   <body>
     <div class="wrapper">
       <header class="without-description">
         <h1>step design</h1>
         <p></p>
+<!--
         <p class="view"><a href="http://step-design.github.io/">Home <small>step-design</small></a></p>
+-->
         <ul>
-          <li class="single"><a href="http://step-design.github.io/">Contact <strong>@</strong></a></li>
+	  <li class="single"><a data-l10n-id="btnRestart" href="http://step-design.github.io/"><!--noscript -->
+	    Contact <strong>@</strong></a></li>
         </ul>
       </header>
       <section>
@@ -38,21 +41,18 @@
   I am a <a href="http://en.wikipedia.org/wiki/Software_developer" target="_blank">Software Developer</a>,
   a <a href="http://en.wikipedia.org/wiki/Free_software" target="_blank">Free Software</a> enthusiast
   and a contributor to various <a href="http://en.wikipedia.org/wiki/Open_source" target="_blank">Open Source</a> projects.
+
   I also craft paid-for websites and software solutions for small
   customers.  I welcome your inquiries. Please use the form below.
   Thank you.
-
-  <a href="http://it.wikipedia.org/wiki/Sviluppatore_software" target="_blank"></a>
-  <a href="http://it.wikipedia.org/wiki/Software_libero" target="_blank"></a>
-  <a href="http://it.wikipedia.org/wiki/Open_source" target="_blank"></a>
 </p>
 <p>
 <span id="signature">&mdash; step</span>
-<small id="speako">
-I speak English |
-parlo italiano |
-hablo español |
-je parle français
+<small data-l10n-id="iSpeak" id="speako"><!--noscript -->
+  I speak English |
+  parlo italiano |
+  hablo español |
+  je parle français
 </small>
 </p>
       </section>
@@ -64,7 +64,10 @@ je parle français
       </section>
     </div>
     <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https:// github.com/orderedlist">orderedlist</a></p>
+      <p data-l10n-id="hosting"><!--noscript -->
+  Hosted on GitHub Pages &mdash; Theme by
+  <a href="https:// github.com/orderedlist" target="_blank">orderedlist</a>
+      </p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
