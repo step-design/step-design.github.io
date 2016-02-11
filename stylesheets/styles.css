@@ -114,6 +114,10 @@ header ul {
   background: -o-linear-gradient(#77b9fb, #3782cd);
   background: -ms-linear-gradient(#77b9fb, #3782cd);
   background: linear-gradient(#77b9fb, #3782cd);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   -moz-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
@@ -139,13 +143,10 @@ header ul:before {
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
 }
 header ul li {
-  width: 79px;
+  min-width: 79px;
   float: left;
   border-right: 1px solid #3A7CBE;
   height: 38px;
-}
-header ul li.single {
-  border: none;
 }
 header ul li + li {
   width: 78px;
